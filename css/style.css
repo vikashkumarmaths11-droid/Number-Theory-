@@ -1,54 +1,254 @@
-body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#0b4f6c;
-    color:white;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b4f6c;
+    color: white;
 }
 
-header{
-    background:#083d56;
-    padding:15px;
+header {
+    background: #083d56;
+    padding: 15px;
 }
 
-nav{
-    text-align:center;
+nav {
+    text-align: center;
 }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:15px;
-    font-size:18px;
-    font-weight:bold;
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.hero{
-    text-align:center;
-    padding:50px 20px;
+.hero {
+    text-align: center;
+    padding: 30px 20px;
+    background: #0b4f6c;
 }
 
-.profile{
-    width:180px;
-    border-radius:10px;
-    border:3px solid white;
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.container{
-    max-width:1000px;
-    margin:auto;
-    padding:30px;
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid white;
+    object-fit: cover;
 }
 
-.card{
-    background:#0f698c;
-    padding:20px;
-    border-radius:10px;
-    margin-top:20px;
+.hero-text {
+    flex: 1;
+    min-width: 250px;
+    text-align: left;
 }
 
-footer{
-    text-align:center;
-    background:#083d56;
-    padding:15px;
-    margin-top:30px;
+.hero-text h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+.hero-text h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #a0e7e5;
+}
+
+.hero-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #00a8e1;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #0088b8;
+}
+
+.btn-secondary {
+    background: #00d4aa;
+    color: #083d56;
+}
+
+.btn-secondary:hover {
+    background: #00b896;
+}
+
+.btn-large {
+    padding: 15px 35px;
+    font-size: 1.2em;
+}
+
+.profile {
+    width: 180px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+.card {
+    background: #0f698c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.about-section {
+    margin: 30px 0;
+}
+
+.about-card h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-card p {
+    line-height: 1.8;
+    font-size: 1.05em;
+}
+
+.features {
+    margin: 40px 0;
+}
+
+.features h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.feature-card {
+    padding: 25px;
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    font-size: 1.3em;
+    margin: 15px 0;
+}
+
+.feature-card p {
+    font-size: 0.95em;
+    line-height: 1.6;
+}
+
+.stats {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.stats h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.stat-card {
+    background: #0f698c;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.stat-card h3 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #00d4aa;
+}
+
+.stat-card p {
+    font-size: 1.1em;
+}
+
+.cta-section {
+    background: #0f698c;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta-section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.cta-section p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+    background: #083d56;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.footer-links {
+    margin-top: 15px;
+}
+
+.footer-links a {
+    color: #a0e7e5;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
 }
