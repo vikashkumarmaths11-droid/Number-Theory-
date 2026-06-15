@@ -12,3 +12,5 @@
 <p>Example equation: \(x^n+y^n=z^n\)</p></main></body></html>
 body{font-family:Arial;max-width:1000px;margin:auto;padding:20px;line-height:1.6}
 header{text-align:center} nav a{margin:10px;text-decoration:none}
+<!DOCTYPE html><html><head><title>About</title><link rel='stylesheet' href='style.css'></head><body>
+<h1>About the Author</h1><p>Vikash Kumar - Independent mathematics researcher.</p></body></html>
