@@ -29,8 +29,7 @@
 </nav>
 <div class="container">
 <div class="profile">
-<img src="vikash_photo.png">
-  <img width="1085" height="1450" alt="1000032078" src="https://github.com/user-attachments/assets/9d15f27b-85bc-4871-a450-9f26786a115d" />
+<img width="1085" height="1450" alt="1000032078" src="https://github.com/user-attachments/assets/9d15f27b-85bc-4871-a450-9f26786a115d" />
   
 <h1>Vikash Kumar</h1>
 <h2>Independent Mathematics Researcher</h2>
