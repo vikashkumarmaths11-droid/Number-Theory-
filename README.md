@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vikash Coaching Centre</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+<header>
+<nav>
+<a href="index.html">Home</a>
+<a href="courses.html">Courses</a>
+<a href="papers.html">Research Papers</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<img src="images/vikash.jpg" class="profile">
+
+<h1>Vikash Coaching Centre</h1>
+
+<h2>IIT-JEE & NEET Physics Faculty</h2>
+
+<p>
+Dedicated coaching for Physics with strong conceptual understanding,
+problem-solving skills, and competitive exam preparation.
+</p>
+
+</section>
+
+<div class="container">
+
+<div class="card">
+<h2>About Me</h2>
+
+<p>
+I am a Physics educator specializing in IIT-JEE and NEET preparation.
+My teaching focuses on conceptual clarity, numerical problem solving,
+and strong foundations in Physics.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+© 2026 Vikash Coaching Centre
+</footer>
+
+</body>
+</html>
