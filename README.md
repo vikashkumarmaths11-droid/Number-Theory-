@@ -1,3 +1,8 @@
+<!DOCTYPE html><html><head><title>Papers</title><link rel='stylesheet' href='style.css'></head><body>
+<header><h1>Research Papers</h1></header><main><ul>
+<li>Geometric Proof of Fermat's Last Theorem (add PDF)</li>
+<li>Add future publications here</li>
+</ul></main></body></html>
 <!DOCTYPE html><html><head><title>Vikash Kumar | Mathematics Research</title>
 <link rel='stylesheet' href='style.css'>
 <script src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'></script>
